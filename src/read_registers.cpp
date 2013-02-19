@@ -22,7 +22,8 @@ public:
 	: AsyncModbusTask(context, callback),
 	  address_(address), 
 	  register_count_(register_count),
-	  results_(new uint16_t[register_count])
+	  results_(new uint16_t[register_count]),
+	  registers_read_(0);
 	{
 	}
 
