@@ -1,25 +1,7 @@
 
 var modbus = require('./build/Release/modbus');
 
-/*
-modbus.async(function(err, result) {
-    console.warn(result);
-});
-*/
-
-try {
-	
-
-
-
-
-}
-catch(e) {
-	console.error(e.name, e.message);
-}
-
-
-var ctx = modbus.new_tcp_context("130.92.145.203", 502);
+var ctx = modbus.new_tcp_context("10.0.0.1", 502);
 
 modbus.connect( ctx, function(error) {
 
