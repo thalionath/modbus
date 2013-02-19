@@ -5,7 +5,7 @@
   "keywords": [
     "modbus"
   ],
-  "main": "./build/Release/modbus",
+  "main": "lib/modbus.js",
   "engines": {
     "node": ">= 0.8.20",
     "npm": ">= 1.2.10"
