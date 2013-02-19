@@ -1,0 +1,25 @@
+{
+  "name": "modbus",
+  "version": "0.0.1",
+  "description": "libmodbus binding",
+  "keywords": [
+    "modbus"
+  ],
+  "main": "./build/Release/modbus",
+  "engines": {
+    "node": ">= 0.8.20",
+    "npm": ">= 1.2.10"
+  },
+  "scripts": {
+    "preuninstall": "rm -rf build"
+  },
+  "author": {
+    "name": "Mario Gruber",
+    "email": "thalionath@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thalionath/modbus.git"
+  },
+  "license": "MIT"
+}
